@@ -4,7 +4,7 @@ import twitter4j.*;
 
 import java.util.List;
 
-public class connect {
+public class TwitterApiConnection {
 
     public static void main(String[] args) {
 
