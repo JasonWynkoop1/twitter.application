@@ -24,6 +24,8 @@ public class connect {
                 e.printStackTrace();
             }
         }
+
+        System.out.println("Shit this sucks ");
     }
 
 }
