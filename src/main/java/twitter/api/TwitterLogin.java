@@ -12,6 +12,7 @@ import java.io.InputStreamReader;
 
 public class TwitterLogin {
 
+
     {
 
         String testStatus = "Test status3";
@@ -32,8 +33,9 @@ public class TwitterLogin {
                 // this is oob, desktop client version
                 RequestToken requestToken = twitter.getOAuthRequestToken();
 
-                gui.setText("Got request token.");
 
+
+                System.out.println("Got request token.");
                 System.out.println("Request token: " + requestToken.getToken());
                 System.out.println("Request token secret: " + requestToken.getTokenSecret());
 
