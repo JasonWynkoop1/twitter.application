@@ -77,7 +77,7 @@ public class TwitterLogin {
 
             System.out.println("Successfully updated the status to [" + status.getText() + "].");
 
-            System.out.println("ready exit");
+            System.out.println("Exiting");
 
             System.exit(0);
         } catch (TwitterException te) {
