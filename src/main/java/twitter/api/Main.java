@@ -6,6 +6,7 @@ public class Main {
 
     public static void main(String[] args){
         TwitterLogin twitterLogin = new TwitterLogin();
+        System.out.println("Hello");
 
         /*TwitterApiConnection twitterApiConnection = new TwitterApiConnection();
         try {
@@ -15,4 +16,5 @@ public class Main {
             e.printStackTrace();
         }*/
     }
+
 }

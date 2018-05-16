@@ -6,11 +6,14 @@ import java.util.List;
 
 public class TwitterApiConnection {
 
+
         Twitter twitter = TwitterFactory.getSingleton();
         List<Status> statuses;
 
+
     {
         try {
+            System.out.println("Hello");
             statuses = twitter.getHomeTimeline();
             System.out.println("Showing " + twitter.getScreenName() + "'s timeline: ");
             for (Status status : statuses) {
