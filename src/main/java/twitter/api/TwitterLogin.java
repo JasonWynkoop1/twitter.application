@@ -14,7 +14,7 @@ public class TwitterLogin {
 
     {
 
-        String testStatus = "Test status1";
+        String testStatus = "Test status3";
 
         ConfigurationBuilder cb = new ConfigurationBuilder();
 
@@ -35,7 +35,7 @@ public class TwitterLogin {
                 System.out.println("Request token: " + requestToken.getToken());
                 System.out.println("Request token secret: " + requestToken.getTokenSecret());
 
-                System.out.println("|-----");
+                System.out.println("-----");
 
                 AccessToken accessToken = null;
 
@@ -77,7 +77,7 @@ public class TwitterLogin {
 
             System.out.println("Successfully updated the status to [" + status.getText() + "].");
 
-            System.out.println("ready exit");
+            System.out.println("Exiting");
 
             System.exit(0);
         } catch (TwitterException te) {
