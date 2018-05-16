@@ -1,16 +1,12 @@
 package twitter.api;
 
-import twitter4j.TwitterException;
-
-
-
 public class Main {
 
 
     public static void main(String[] args) {
 
-        SimplerTwitterGUI gui = new SimplerTwitterGUI();
         TwitterLogin twitterLogin = new TwitterLogin();
+
         //System.out.println("Hello");
 
         /*TwitterApiConnection twitterApiConnection = new TwitterApiConnection();

@@ -24,14 +24,15 @@ public class TwitterLogin {
             Twitter twitter = tf.getInstance();
 
             try {
+                SimplerTwitterGUI gui = new SimplerTwitterGUI();
                 System.out.println("-----");
 
                 // get request token.
                 // this will throw IllegalStateException if access token is already available
                 // this is oob, desktop client version
                 RequestToken requestToken = twitter.getOAuthRequestToken();
-
-                System.out.println("Got request token.");
+                
+                gui.setText("Got request token.");
                 System.out.println("Request token: " + requestToken.getToken());
                 System.out.println("Request token secret: " + requestToken.getTokenSecret());
 
