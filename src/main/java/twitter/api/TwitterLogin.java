@@ -25,7 +25,7 @@ public class TwitterLogin {
             Twitter twitter = tf.getInstance();
 
             try {
-                SimplerTwitterGUI gui = new SimplerTwitterGUI();
+                View gui = new View();
                 System.out.println("-----");
 
                 // get request token.
