@@ -35,9 +35,9 @@ public class TwitterLogin {
 
 
 
-                System.out.println("Got request token.");
-                System.out.println("Request token: " + requestToken.getToken());
-                System.out.println("Request token secret: " + requestToken.getTokenSecret());
+                gui.addText("Got request token.");
+                gui.addText("Request token: " + requestToken.getToken());
+                gui.addText("Request token secret: " + requestToken.getTokenSecret());
 
                 System.out.println("-----");
 
@@ -46,9 +46,9 @@ public class TwitterLogin {
                 BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
                 while (null == accessToken) {
-                    System.out.println("Open the following URL and grant access to your account:");
-                    System.out.println(requestToken.getAuthorizationURL());
-                    System.out.print("Enter the PIN(if available) and hit enter after you granted access.[PIN]:");
+                    gui.addText("Open the following URL and grant access to your account:");
+                    gui.addText(requestToken.getAuthorizationURL());
+                    gui.addText("Enter the PIN(if available) and hit enter after you granted access.[PIN]:");
                     String pin = br.readLine();
 
                     try {
@@ -65,9 +65,9 @@ public class TwitterLogin {
                         }
                     }
                 }
-                System.out.println("Got access token.");
-                System.out.println("Access token: " + accessToken.getToken());
-                System.out.println("Access token secret: " + accessToken.getTokenSecret());
+                gui.addText("Got access token.");
+                gui.addText("Access token: " + accessToken.getToken());
+                gui.addText("Access token secret: " + accessToken.getTokenSecret());
 
             } catch (IllegalStateException ie) {
                 // access token is already available, or consumer key/secret is not set.

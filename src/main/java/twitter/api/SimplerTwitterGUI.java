@@ -5,7 +5,7 @@ import java.awt.*;
 
 public class SimplerTwitterGUI extends JFrame {
 
-    private JTextArea jTextPane = new JTextArea();
+    private JTextArea jTextArea;
 
     public SimplerTwitterGUI() {
         setTitle("SimplerTwitter v0.0.1");
@@ -14,13 +14,14 @@ public class SimplerTwitterGUI extends JFrame {
         setLocationRelativeTo(null);
 
         setLayout(new BorderLayout());
-
-        add(jTextPane, BorderLayout.NORTH);
+        jTextArea = new JTextArea();
+        jTextArea.setEditable(false);
+        add(jTextArea, BorderLayout.NORTH);
         setVisible(true);
     }
 
     public void addText(String str){
-        jTextPane.setText("FUCK");
+        jTextArea.append(str + "\n");
     }
 
 }
