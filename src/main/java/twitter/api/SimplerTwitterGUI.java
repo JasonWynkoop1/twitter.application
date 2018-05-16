@@ -8,7 +8,7 @@ public class SimplerTwitterGUI extends JFrame {
     private JTextPane jTextPane = new JTextPane();
 
     public SimplerTwitterGUI() {
-        setTitle("SimplerTwitter v1.0");
+        setTitle("SimplerTwitter v0.0.1");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setSize(300,500);
         setLocationRelativeTo(null);
