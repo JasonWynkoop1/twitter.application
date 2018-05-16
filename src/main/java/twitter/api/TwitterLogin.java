@@ -6,9 +6,13 @@ import twitter4j.TwitterFactory;
 import twitter4j.auth.AccessToken;
 import twitter4j.auth.RequestToken;
 import twitter4j.conf.ConfigurationBuilder;
+
+import java.awt.*;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.net.URI;
+import java.net.URISyntaxException;
 
 public class TwitterLogin {
 
@@ -47,7 +51,13 @@ public class TwitterLogin {
 
                 while (null == accessToken) {
                     gui.addText("Open the following URL and grant access to your account:");
-                    gui.addText(requestToken.getAuthorizationURL());
+                    if (Desktop.isDesktopSupported()) {
+                        try {
+                            Desktop.getDesktop().browse(new URI(requestToken.getAuthorizationURL()));
+                        } catch (URISyntaxException e) {
+                            e.printStackTrace();
+                        }
+                    }
                     gui.addText("Enter the PIN(if available) and hit enter after you granted access.[PIN]:");
                     String pin = br.readLine();
 
@@ -66,8 +76,8 @@ public class TwitterLogin {
                     }
                 }
                 gui.addText("Got access token.");
-                gui.addText("Access token: " + accessToken.getToken());
-                gui.addText("Access token secret: " + accessToken.getTokenSecret());
+                //gui.addText("Access token: " + accessToken.getToken());
+                //gui.addText("Access token secret: " + accessToken.getTokenSecret());
 
             } catch (IllegalStateException ie) {
                 // access token is already available, or consumer key/secret is not set.
