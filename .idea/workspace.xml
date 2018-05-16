@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd65bc32-3071-4d2e-9292-a073ec24981e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/twitter.application.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/twitter.application_main.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/twitter.application_test.iml" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/twitter/api/Main.java" afterPath="$PROJECT_DIR$/src/main/java/twitter/api/Main.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/twitter/api/SimplerTwitterGUI.java" afterPath="$PROJECT_DIR$/src/main/java/twitter/api/SimplerTwitterGUI.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/twitter/api/TwitterLogin.java" afterPath="$PROJECT_DIR$/src/main/java/twitter/api/TwitterLogin.java" />
     </list>
@@ -44,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TwitterLogin.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TwitterLogin.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/twitter/api/TwitterLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="33" column="16" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+            <state relative-caret-position="-262">
+              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,15 +45,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimplerTwitterGUI.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SimplerTwitterGUI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/twitter/api/SimplerTwitterGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            <state relative-caret-position="150">
+              <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#479#480#0" expanded="true" />
-                <element signature="e#517#518#0" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
+                <element signature="e#561#562#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,6 +88,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Jason &lt;jasonwynkoop1@yahoo.com&gt;" />
         <option value="justi &lt;justinwynkoop@gmail.com&gt;" />
       </list>
     </option>
@@ -397,8 +387,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/twitter/api/TwitterApiConnection.java" />
         <option value="$PROJECT_DIR$/src/main/java/twitter/api/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/twitter/api/SimplerTwitterGUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/twitter/api/TwitterLogin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/twitter/api/SimplerTwitterGUI.java" />
       </list>
     </option>
   </component>
@@ -616,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526434035349</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add textPane">
+      <created>1526439907443</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1526439907443</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -660,7 +657,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Testing commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing commit" />
+    <MESSAGE value="Add textPane" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add textPane" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -691,8 +689,8 @@
           <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -733,24 +731,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/twitter/api/SimplerTwitterGUI.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/twitter/api/TwitterLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        <state relative-caret-position="-262">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/twitter/api/TwitterLogin.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/twitter/api/SimplerTwitterGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="33" column="16" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+        <state relative-caret-position="150">
+          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -31,8 +31,9 @@ public class TwitterLogin {
                 // this will throw IllegalStateException if access token is already available
                 // this is oob, desktop client version
                 RequestToken requestToken = twitter.getOAuthRequestToken();
-                
+
                 gui.setText("Got request token.");
+
                 System.out.println("Request token: " + requestToken.getToken());
                 System.out.println("Request token secret: " + requestToken.getTokenSecret());
 
